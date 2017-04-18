@@ -1,10 +1,11 @@
 {
-    "name": "silverstripe-image-gallery",
+    "name": "dynamic/silverstripe-image-gallery",
     "description": "simple image gallery with albums",
     "authors": [
         {
             "name": "Dynamic",
-            "email": "dev@dynamicagency.com"
+            "email": "dev@dynamicagency.com",
+            "homepage": "http://www.dynamicagency.com"
         }
     ],
     "keywords": [
@@ -14,18 +15,11 @@
     "license": "BSD-3-Clause",
     "require": {
         "silverstripe/cms": "^3.2",
-        "silverstripe/framework": "^3.2",
-        "silverstripe/reactjs-common": "dev-master"
+        "silverstripe/framework": "^3.2"
     },
     "require-dev": {
         "phpunit/PHPUnit": "^3.7"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/open-sausages/silverstripe-reactjs-common"
-        }
-    ],
     "config": {
         "process-timeout": 600
     },
