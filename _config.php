@@ -1,0 +1,4 @@
+<?php
+
+define('SILVERSTRIPE_IMAGE-GALLERY_PATH', __DIR__);
+define('SILVERSTRIPE_IMAGE-GALLERY_DIR', basename(__DIR__));
